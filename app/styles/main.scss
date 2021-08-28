@@ -1,0 +1,56 @@
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  color: #342947;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.navigation {
+  padding: 24px 0;
+
+  & .btn {
+    width: 100%;
+  }
+
+  & a {
+    text-decoration: none;
+    color: #342947;
+    font-weight: 700;
+
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: #5B20C7;
+    }
+  }
+
+  & .menu a {
+    padding: 0 32px;
+  }
+
+}
+
+.hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  & h1 span {
+    color: #5B20C7;
+  }
+}
+
+.section__desc {
+  & p {
+    margin: 32px 0;
+  }
+
+  & .btn {
+    padding: 16px 56px;
+  }
+}
